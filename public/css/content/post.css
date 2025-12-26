@@ -1,0 +1,113 @@
+
+
+.avatar {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    border-width: 2px;
+    border-color:lightgray;
+    border-style: solid;
+}
+
+.content {
+    width: 1200px;
+    margin: 0px auto 0px auto;
+}
+
+.content h1 {
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.content h2 {
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+}
+
+
+.profile {
+    justify-self: end;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    width: 1100px;
+    margin: 50px auto 0px auto;
+    font-size: 19px;
+    line-height: 1.7;
+}
+
+hr {
+    width: 1200px; margin: 0px; 
+    margin: 50px 0 50px 0;
+}
+
+.comments {
+    width: 1100px;
+    margin: 0 auto 0 auto;
+}
+
+.comments form {
+    background-color: #4b4b4bff;
+    width: 600px;
+    margin: 0px auto 70px auto;
+    border-radius: 8px;
+}
+
+.comments form button {
+    background-color: #3b3b3bff;
+    margin: 5px 30px 15px 0px;
+    border-radius: 5px;
+    border-width: 0px;
+    width: 80px;
+    height: 25px;
+    color: lightgray;
+}
+
+.comments form div {
+    margin: 15px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: #616161ff;
+    color:lightgray;
+    border-radius: 10px;
+}
+
+.comments form textarea{
+    margin: 0px;
+    background-color: #616161ff;
+    color: lightgray;
+    padding: 15px 15px 15px 15px;
+    width: 600px;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.usercomment{
+    background-color: #616161ff;
+    width: 800px;
+    padding: 20px;
+    margin: 0px 0px 30px 0px;
+    border-radius: 15px;
+}
+
+.usercomment div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usercomment span {
+    font-size: 13px;
+}
+
+.usersComments {
+    margin: 10px 0 0 0;
+    overflow-wrap: break-word;
+}

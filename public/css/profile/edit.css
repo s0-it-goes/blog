@@ -1,0 +1,126 @@
+.right {
+    margin: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 0 auto;
+}
+
+.info h3 {
+    text-align: center;
+}
+
+.info div {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.info a {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.info span {
+    display: inline-block;
+    width: 185px;
+}
+
+.userDataForm {
+    display: inline-block;
+    margin: 0px auto 0 auto;
+    text-align: left;
+}
+
+.userDataForm button {
+    display: block;
+    background: none;
+    border: none;
+
+    margin: 50px auto 0 auto;
+
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+
+    padding: 5px 7px;
+    font-size: 24px;
+
+    border-color: rgb(255, 115, 0);
+    color: rgb(255, 115, 0);
+
+    transition: 0.2s;
+}
+
+.userDataForm button:hover {
+    color: rgb(221, 221, 221);
+    background-color: rgb(255, 115, 0);
+    cursor: pointer;
+}
+
+.userData input {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.userData input {
+    border-radius: 3px;
+}
+
+.userData input::placeholder {
+    padding-left: 5px;
+}
+
+.userAvatar {
+    text-align: center;
+}
+
+.signOutForm button {
+    margin-top: 50px;
+    font-size: 20px;
+    border: none;
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: rgb(190, 1, 1);
+    color: rgb(190, 1, 1);
+}
+
+.signOutForm button:hover {
+    background-color: rgb(190, 1, 1);
+    color: rgb(221, 221, 221); 
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.signOutForm {
+    margin: 0px;
+    text-align: center;
+}
+
+.avatar {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.usernameForm div {
+    display: flex;
+    align-items: center;
+}
+
+.emailForm div {
+    display: flex;
+    align-items: center;
+}
+
+.passwordForm div {
+    display: flex;
+    align-items: center;
+}

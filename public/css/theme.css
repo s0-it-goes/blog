@@ -1,0 +1,186 @@
+
+/* ************LIGHT THEME************ */
+
+body.light {
+    background-color: rgb(237, 238, 240);
+    color: black;
+}
+
+body.light .avatar {
+    border-color: rgb(27, 27, 27);
+}
+
+body.light header {
+    background-color: rgb(237, 238, 240);
+}
+
+body.light header a {
+    color: black;
+    transition: color 0.2s;
+}
+
+body.light header a:hover {
+    color: rgb(0, 110, 255);
+}
+
+/* home */
+
+body.light .post {
+    background-color: white;
+    color: black;
+}
+
+body.light .title_name {
+    color: black;
+    transition: color 0.2s;
+}
+
+body.light .title_name:hover {
+    color: rgb(0, 110, 255);
+}
+
+body.light .author_name {
+    color: black;
+    transition: color 0.2s;
+}
+
+body.light .author_name:hover {
+    color: rgb(255, 115, 0);
+    
+}
+
+/* my profile */
+
+body.light #loadMore {
+    border-color: rgb(27, 27, 27);
+    color: rgb(27, 27, 27);
+    transition: 0.2s;
+}
+
+body.light #loadMore:hover {
+    color: rgb(221, 221, 221);
+    background-color: rgb(27, 27, 27);
+    cursor: pointer;
+}
+
+/* edit profile */
+
+body.light .userAvatar input {
+    color: rgb(237, 238, 240);
+    margin-left: 138px;
+}
+
+body.light .userData input {
+    background-color: rgb(221, 221, 221);
+    border-color: rgb(100, 100, 100);
+    color:  rgb(27, 27, 27);
+}
+
+body.light .userData input::placeholder {
+    color: rgb(100, 100, 100);
+}
+
+/* create post */
+
+body.light form input.title {
+    background-color: white;
+}
+
+body.light form textarea.content {
+    background-color: white;
+}
+
+body.light form button.submitButton {
+    background-color: white;
+}
+/* *************DARK THEME************ */
+
+body.dark {
+    background-color: rgb(27, 27, 27);
+    color: rgb(221, 221, 221);
+}
+
+body.dark .avatar {
+    border-color:rgb(221, 221, 221);
+}
+
+body.dark header {
+    background-color: rgb(27, 27, 27);
+}
+
+body.dark header a {
+    color: rgb(221, 221, 221);
+    transition: color 0.2s;
+}
+
+body.dark header a:hover {
+    color: rgb(0, 110, 255);
+}
+
+/* home */
+
+body.dark .post {
+    background-color: rgb(49, 49, 49);
+    color: rgb(221, 221, 221);
+}
+
+body.dark .title_name {
+    color: rgb(221, 221, 221);
+    transition: color 0.2s;
+}
+
+body.dark .title_name:hover {
+    color: rgb(0, 110, 255);
+}
+
+
+body.dark .author_name {
+    color: rgb(221, 221, 221);
+    transition: color 0.2s;
+}
+
+body.dark .author_name:hover {
+    color: rgb(255, 115, 0);
+    
+}
+
+/* my profile */
+
+body.dark #loadMore {
+    border-color: rgb(221, 221, 221);
+    color: rgb(221, 221, 221);
+    transition: 0.2s;
+}
+
+body.dark #loadMore:hover {
+    color: rgb(27, 27, 27);
+    background-color: rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+/* edit profile */
+
+body.dark .userAvatar input {
+    color: rgb(27, 27, 27);
+    margin-left: 138px;
+}
+
+body.dark .userData input {
+    background-color: rgb(100, 100, 100);
+    border-color: rgb(221, 221, 221);
+    color:  rgb(27, 27, 27);
+}
+
+body.dark .userData input::placeholder {
+    color: rgb(221, 221, 221);
+}
+
+/* create post */
+
+body.dark form input.title {
+    background-color: rgb(221, 221, 221);
+}
+
+body.dark form textarea.content {
+    background-color: rgb(221, 221, 221);
+}

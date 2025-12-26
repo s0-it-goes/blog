@@ -1,0 +1,39 @@
+.profile{
+    justify-self: end;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+}
+
+form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 350px
+}
+
+.content {
+    width: 700px;
+    height: 250px;
+    font-size: 16px;
+}
+
+.image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.submitButton {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+}
