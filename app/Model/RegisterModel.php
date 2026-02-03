@@ -8,6 +8,7 @@ use App\Http\Request;
 
 class RegisterModel
 {
+    private int $lastInserterId;
     private array $data = [];
     public function __construct(
         private Request $request, 
@@ -49,6 +50,8 @@ class RegisterModel
                 'password' => $password
             ]);
 
+            $this->lastInserterId = (int) $this->db->lastInsertId();
+
             $this->db->commit();
 
             return true;
@@ -77,8 +80,6 @@ class RegisterModel
 
     public function getID(): int
     {
-        $id = (int) $this->db->lastInsertId();
-
-        return $id;
+        return $this->lastInserterId;
     }
 }
